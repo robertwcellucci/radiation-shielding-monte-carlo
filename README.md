@@ -1,4 +1,4 @@
-# When the Textbook Formula is Wrong
+# When the Textbook Formula Isn't Enough
 A Monte Carlo random walk for a radiation shielding problem, and the 58% gap between theory and simulation
 
 **The question:** How much lead shielding is needed so that no more than 0.1% of gamma photons from a Caesium-137 source escape?
