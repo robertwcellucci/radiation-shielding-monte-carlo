@@ -2,4 +2,4 @@ numpy==2.4.6
 pandas==3.0.3
 scipy==1.18.0
 matplotlib==3.11.0
-jupyter==7.5.7
+notebook==7.5.7
