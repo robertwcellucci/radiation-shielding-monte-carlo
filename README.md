@@ -5,6 +5,8 @@ A Monte Carlo Random Walk for a Radiation Shielding Problem
 
 **The finding:** The standard textbook answer (the Beer-Lambert attenuation law) says 5.53 cm. A Monte Carlo simulation of one million photons says 8.73 cm, roughly 58% more. The discrepancy is not a bug; it is a real physical effect called **buildup**, and this project identifies it, explains it mechanistically, and confirms the explanation with a controlled falsification test. Trusting the textbook number would leak about 1.2% of photons, twelve times the safety target.
 
+![Simulated leak fraction vs. Beer-Lambert prediction on a log scale](images/theory_vs_simulation.png)
+
 This is a model validation story: a simulation disagrees with a trusted benchmark, and the analysis has to determine whether the model is broken or the benchmark is incomplete. That workflow (validate against a baseline, diagnose the structured disagreement, test the proposed explanation) is the same one used to sanity-check any predictive model, and it is the reason this project exists in a data science portfolio.
 
 ## The Analysis in Four Steps
